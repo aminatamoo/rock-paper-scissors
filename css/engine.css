@@ -5,7 +5,7 @@ Container styles
 --------------------------------------------------------------------------------
 */
 body{
-  background-image:url(http://www.papagoarchery.com/wp-content/uploads/2017/10/who-invented-rock-paper-scissors.png);
+  background-image:url("http://www.papagoarchery.com/wp-content/uploads/2017/10/who-invented-rock-paper-scissors.png");
   text-align:center;
   background-position: 50% 40%;
 }
@@ -23,7 +23,7 @@ body{
 @media only screen and (min-width: 700px) {
 
   body{
-    background-image: url(http://www.sfvacc.org/resources/Pictures/RoPaSc%20Logo.jpg);
+    background-image: url("http://www.sfvacc.org/resources/Pictures/RoPaSc%20Logo.jpg");
     background-position: 50% 20%;
   }
 
