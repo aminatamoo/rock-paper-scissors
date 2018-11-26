@@ -6,7 +6,7 @@ var played = 0;
 var won = 0;
 var lost = 0;
 var draw = 0;
-/*var remainder = played % 5;*/
+var remainder = played % 20
 
 
 //Listen for button clicks
