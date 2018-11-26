@@ -1,21 +1,120 @@
 
-
+/*
+--------------------------------------------------------------------------------
+Container styles
+--------------------------------------------------------------------------------
+*/
 body{
+  background-image:url(http://www.papagoarchery.com/wp-content/uploads/2017/10/who-invented-rock-paper-scissors.png);
   text-align:center;
+  background-position: 50% 40%;
 }
 
-div{
-  display:inline-block;
-}
+.main {
+    background-color: rgba(255, 89, 103, 0.95);
+    display: inline-block;
+    max-width: 75%;
+    border: 1px solid black;
+    margin-top: 20%;
+    color: white;
+  }
 
-h1, h2, h3, button{
-  margin-top: 10%;
-}
+@media only screen and (min-width: 700px) {
 
-#style_verdict{
-  margin-bottom:10%;
+  body{
+    background-image: url(http://www.sfvacc.org/resources/Pictures/RoPaSc%20Logo.jpg);
+    background-position: 50% 20%;
+  }
+
+  .main{
+    background-color: rgba(99, 189, 187, 0.95);
+  }
 }
+/*
+--------------------------------------------------------------------------------
+Text styles
+--------------------------------------------------------------------------------
+*/
 
 span{
   margin-left:2%;
+  color: rgb(44, 138, 65);
+}
+
+h1{
+  font-family:"Bangers";
+  text-decoration: underline;
+}
+
+h2{
+  font-family: "Bangers";
+  font-weight: bold;
+  max-width: 50%;
+  margin-left: 25%;
+  border: 1px solid rgb(246, 189, 74);
+  border-radius: 10px;
+  background-color: rgba(246, 189, 74, 0.95);
+  letter-spacing: 3px;
+}
+
+h4{
+  font-family: "Bangers";
+}
+
+@media only screen and (min-width: 700px) {
+
+  span{
+    color: rgb(121, 93, 39);
+  }
+
+  h2{
+    max-width: 50%;
+    margin-left: 25%;
+    border: 1px solid rgb(40, 167, 69);
+    border-radius: 10px;
+    background-color: rgba(40, 167, 69, 0.95);
+  }
+}
+/*
+--------------------------------------------------------------------------------
+Images styles
+--------------------------------------------------------------------------------
+*/
+
+img{
+  max-width: 20%;
+}
+
+img:hover{
+  margin-top:0;
+}
+
+.modal-body img{
+  max-width:100%;
+}
+
+/*
+--------------------------------------------------------------------------------
+Spacing styles
+--------------------------------------------------------------------------------
+*/
+
+h1, h2, h4, img{
+  margin-top: 10%;
+}
+
+#style_verdict, section{
+  margin-bottom:10%;
+}
+
+#current{
+  margin-bottom:3%;
+}
+
+@media only screen and (min-width: 500px) {
+
+  p{
+    display: inline;
+    margin-right: 5%;
+  }
 }
