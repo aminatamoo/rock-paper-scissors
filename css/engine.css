@@ -17,6 +17,7 @@ body{
     border: 1px solid black;
     margin-top: 20%;
     color: white;
+    font-family:"Bangers";
   }
 
 @media only screen and (min-width: 700px) {
@@ -36,18 +37,17 @@ Text styles
 --------------------------------------------------------------------------------
 */
 
+
 span{
   margin-left:2%;
   color: rgb(44, 138, 65);
 }
 
 h1{
-  font-family:"Bangers";
   text-decoration: underline;
 }
 
 h2{
-  font-family: "Bangers";
   font-weight: bold;
   max-width: 50%;
   margin-left: 25%;
@@ -55,10 +55,15 @@ h2{
   border-radius: 10px;
   background-color: rgba(246, 189, 74, 0.95);
   letter-spacing: 3px;
+  font-size: 30px;
 }
 
 h4{
-  font-family: "Bangers";
+  font-size: 24px;
+}
+
+p{
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 700px) {

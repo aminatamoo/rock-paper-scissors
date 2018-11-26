@@ -17,7 +17,7 @@ $("img").click(function(event){
   var play_computer = computer_move();
   compare(play_you, play_computer);
   assign_winner();
-  close();
+  close_btn();
 })
 
 //Functions
@@ -80,9 +80,9 @@ else if ((played == 20) && (won < lost )){
 }
 }
 
-/*function close(){
+function close_btn(){
   $('.main_close').click(function (event){
     $('#loser').hide();
     $('#winner').hide();
 });
-}*/
+}
