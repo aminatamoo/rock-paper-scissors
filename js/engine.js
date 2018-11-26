@@ -19,6 +19,8 @@ $("img").click(function(event){
   close_btn();
 })
 
+reset();
+
 $(".reset-btn").click(function(event){
 
   played = 0;
@@ -86,6 +88,18 @@ function compare(you, computer){
 
 }
 
+function reset(){
+
+var reset_btn = parseInt($("#game_played"));
+
+  if (reset_btn == 0){
+    $(".reset-btn").hide();
+  }
+  else if (reset_btn < 0){
+    $(".reset-btn").show();
+  }
+  console.log(played);
+}
 //Modal functionality
 
 
