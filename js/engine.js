@@ -6,7 +6,6 @@ var played = 0;
 var won = 0;
 var lost = 0;
 var draw = 0;
-var remainder = played % 20
 
 
 //Listen for button clicks
@@ -19,6 +18,28 @@ $("img").click(function(event){
   assign_winner();
   close_btn();
 })
+
+$(".reset-btn").click(function(event){
+
+  played = 0;
+  $("#game_played").text(played);
+
+  won = 0;
+  $("#game_won").text(won);
+
+  lost = 0;
+  $("#game_lost").text(lost);
+
+  draw = 0;
+  $("#game_draw").text(draw);
+
+  verdict = 0;
+  $("#verdict").text(verdict);
+
+  console.log(played);
+
+});
+
 
 //Functions
 
