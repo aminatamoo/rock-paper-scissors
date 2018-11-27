@@ -12,13 +12,13 @@
 </head>
 
 <body>
-	<div class="main">
+	<div class="main container">
 		<h1>Rock Paper Scissors</h1>
 		<img src="images\rock.png" alt="icon of a rock." id="rock">
 		<img src="images\paper.png" alt="icon of a paper." id="paper">
 		<img src="images\scissors.png" alt="icon of scissors." id="scissors">
-
-		<section>
+		<div class="row">
+		<section class="col-md-6">
 			<h2 id="current">Current Move</h2>
 			<div class="text">
 				<p>You: <span id="play_you"></p>
@@ -28,7 +28,7 @@
 
 		<hr>
 
-		<section>
+		<section class="col-md-6">
 			<h2 id="result">Results</h2>
 			<h4 id="style_verdict">Verdict: <span id="verdict">0</span></h4>
 			<div class="text">
@@ -38,6 +38,7 @@
 				<p>Played: <span id="game_played">0</span></p>
 			</div>
 			<button type="button" class="reset-btn btn btn-secondary">Reset</button>
+			</section
 		</div>
 
 	<div id="winner" class="modal" tabindex="-1" role="dialog">
