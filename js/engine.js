@@ -38,6 +38,12 @@ $(".reset-btn").click(function(event){
   verdict = 0;
   $("#verdict").text(verdict);
 
+  play_computer = " ";
+  $("#play_computer").text(play_computer);
+
+  play_you = " ";
+  $("#play_you").text(play_you);
+
   console.log(played);
 
 });
