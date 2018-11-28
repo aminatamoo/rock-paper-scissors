@@ -134,6 +134,7 @@ Modal styles
 .modal-title{
   text-align: center;
   min-width:100%;
+  color: black;
 }
 
 /*
